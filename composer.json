@@ -1,11 +1,11 @@
 {
-  "name": "matheushack/bradesco",
+  "name": "flycorp/bradesco",
   "description": "Comunicação Bradesco ShopFacil",
   "license": "MIT",
   "authors": [
     {
-      "name": "Matheus Hack",
-      "email": "matheushackdiniz@hotmail.com"
+      "name": "Railam Ribeiro",
+      "email": "railam20120@gmail.comx"
     }
   ],
   "require": {
