@@ -1,0 +1,23 @@
+{
+  "name": "matheushack/bradesco",
+  "description": "Comunicação Bradesco ShopFacil",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Matheus Hack",
+      "email": "matheushackdiniz@hotmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.2.5",
+    "guzzlehttp/guzzle": "^6.3",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "FlyCorp\\Bradesco\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
