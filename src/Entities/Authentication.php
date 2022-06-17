@@ -104,7 +104,7 @@ class Authentication
 				'Content-Type' => 'application/json',
 				'Authorization' => sprintf('Basic %s', base64_encode(
 					sprintf('%s:%s',
-						config(sprintf('payment.integrations.%s.merchant_id', "bradesco"),
+						config(sprintf('payment.integrations.%s.merchant_id', "bradesco")),
 						config(sprintf('payment.integrations.%s.secret_key', "bradesco"))
 					)
 				))
