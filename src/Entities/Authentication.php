@@ -8,7 +8,6 @@
 
 namespace FlyCorp\Bradesco\Entities;
 
-use App\Modules\Payment\Constants\PaymentIntegrations;
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\RequestException;
@@ -92,8 +91,8 @@ class Authentication
 					'Content-Type' => 'application/json',
 					'Authorization' => sprintf('Basic %s', base64_encode(
 						sprintf('%s:%s',
-							config(sprintf('payment.integrations.%s.user', PaymentIntegrations::BRADESCO)),
-							config(sprintf('payment.integrations.%s.secret_key', PaymentIntegrations::BRADESCO))
+							config(sprintf('payment.integrations.%s.user', "bradesco")),
+							config(sprintf('payment.integrations.%s.secret_key', "bradesco"))
 						)
 					))
 				],
@@ -105,8 +104,8 @@ class Authentication
 				'Content-Type' => 'application/json',
 				'Authorization' => sprintf('Basic %s', base64_encode(
 					sprintf('%s:%s',
-						config(sprintf('payment.integrations.%s.merchant_id', PaymentIntegrations::BRADESCO)),
-						config(sprintf('payment.integrations.%s.secret_key', PaymentIntegrations::BRADESCO))
+						config(sprintf('payment.integrations.%s.merchant_id', "bradesco"),
+						config(sprintf('payment.integrations.%s.secret_key', "bradesco"))
 					)
 				))
 			],

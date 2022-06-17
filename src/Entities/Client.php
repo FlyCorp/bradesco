@@ -8,7 +8,6 @@
 
 namespace FlyCorp\Bradesco\Entities;
 
-use App\Modules\Payment\Constants\PaymentIntegrations;
 use FlyCorp\Bradesco\Entities\Request;
 
 /**
@@ -23,7 +22,7 @@ class Client extends Authentication
 	 */
 	public function generate(Request $request)
 	{
-		$endpoint = sprintf('payment.integrations.%s.create_endpoint', PaymentIntegrations::BRADESCO);
+		$endpoint = sprintf('payment.integrations.%s.create_endpoint', "bradesco");
 		return $this->execute(sprintf('%s/transacao', config($endpoint)), 'POST', $request->toArray());
 	}
 
@@ -32,8 +31,8 @@ class Client extends Authentication
 	 */
 	public function token()
 	{
-		$endpoint = sprintf('payment.integrations.%s.search_endpoint', PaymentIntegrations::BRADESCO);
-		$merchantId = sprintf('payment.integrations.%s.merchant_id', PaymentIntegrations::BRADESCO);
+		$endpoint = sprintf('payment.integrations.%s.search_endpoint', "bradesco");
+		$merchantId = sprintf('payment.integrations.%s.merchant_id', "bradesco");
 
 		return $this->execute(sprintf('%s/Authentication/%s',
 			config($endpoint),
@@ -48,8 +47,8 @@ class Client extends Authentication
 	 */
 	public function billet($token, $orderId)
 	{
-		$endpoint = sprintf('payment.integrations.%s.search_endpoint', PaymentIntegrations::BRADESCO);
-		$merchantId = sprintf('payment.integrations.%s.merchant_id', PaymentIntegrations::BRADESCO);
+		$endpoint = sprintf('payment.integrations.%s.search_endpoint', "bradesco");
+		$merchantId = sprintf('payment.integrations.%s.merchant_id', "bradesco");
 
 		return $this->execute(sprintf('%s/GetOrderById/%s?token=%s&orderId=%s',
 			config($endpoint),
