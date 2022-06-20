@@ -1,6 +1,6 @@
 # Boleto Bradesco Shop Fácil 
 
-Um parágrafo da descrição do projeto vai aqui
+Pacote  responsável por gerar boletos carteira 26 via API  com Sho Fácil/Bradesco
 
 ## 🚀 Começando
 
