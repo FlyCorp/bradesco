@@ -61,15 +61,14 @@ return [
 
 ## 📦 Desenvolvimento
 
-Caso tenha divas enviar e-mail para eailam2010@gmail.com
+Caso tenha dúvidas  enviar e-mail para eailam2010@gmail.com
 
 ## 🛠️ Construído com
 
-Mencione as ferramentas que você usou para criar seu projeto
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - O framework web usado
-* [Maven](https://maven.apache.org/) - Gerente de Dependência
-* [ROME](https://rometools.github.io/rome/) - Usada para gerar RSS
+* [LARAVEL](https://laravel.com/) - O framework web mais usado
+* [PHP](https://www.php.net/) - A melhor linguagem de programação do mundo 
+
 
 
 ## ✒️ Autores
