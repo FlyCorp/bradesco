@@ -15,18 +15,18 @@ Essas instruções permitirão que você obtenha uma cópia do projeto em opera�
 
 ### 🔧 Instalação
 
-Uma série de exemplos passo-a-passo que informam o que você deve executar para ter um ambiente de desenvolvimento em execução.
+Use o gerenciador de pacotes COMPOSER para i ncluir as dependencias  ao seu projeto.
 
-Diga como essa etapa será:
-
-```
-composer install  FlyCorp/bradesco 
-```
-
-E repita:
+Comando a execultar:
 
 ```
-Até finalizar
+composer require FlyCorp/bradesco 
+```
+
+Em seguida :
+
+```
+composer install FlyCorp/bradesco
 ```
 
 Termine com um exemplo de como obter dados do sistema ou como usá-los para uma pequena demonstração.
