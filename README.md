@@ -29,9 +29,9 @@ Em seguida :
 composer install FlyCorp/bradesco
 ```
 
-## ⚙️ Executando os testes
+## ⚙️ Botando pra rodar
 
-Explicar como executar os testes automatizados para este sistema.
+Agora devemos  implementar o arquivo de config dentro do laravel 
 
 ### 🔩 Analise os testes de ponta a ponta
 
