@@ -1,6 +1,6 @@
 # Boleto Bradesco Shop Fácil 
 
-Pacote  responsável por gerar boletos carteira 26 via API  com Sho Fácil/Bradesco
+Pacote  responsável por gerar boletos carteira 26 via API  com ShopFácil/Bradesco
 
 ## 🚀 Começando
 
@@ -10,7 +10,7 @@ Essas instruções permitirão que você obtenha uma cópia do projeto em opera�
 ### 📋 Pré-requisitos
 
 - PHP ˆ7.2
-- Laravel ˆ6
+- Laravel ˆ6.0
 - Composer
 
 ### 🔧 Instalação
