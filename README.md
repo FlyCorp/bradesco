@@ -31,22 +31,32 @@ composer install FlyCorp/bradesco
 
 ## ⚙️ Botando pra rodar
 
-Agora devemos  implementar o arquivo de config dentro do laravel 
-
-### 🔩 Analise os testes de ponta a ponta
-
-Explique que eles verificam esses testes e porquê.
+O arquivo deve estar dentro do diretio app do laravel vide exemplo abaixo 
 
 ```
-Dar exemplos
+App\Config\payment.php
 ```
 
-### ⌨️ E testes de estilo de codificação
-
-Explique que eles verificam esses testes e porquê.
+Conteudo do arquivo 
 
 ```
-Dar exemplos
+<?php
+
+return [
+
+    'integrations' => [
+    
+        'bradesco' => [
+            'user'            => env('BRADESCO_BOLETO_AUTH', ''),
+            'merchant_id'     => env('BRADESCO_BOLETO_MERCHANTID', ''),
+            'secret_key'      => env('BRADESCO_BOLETO_MERCHANTKEY', ''),
+            'create_endpoint' => env('BRADESCO_ENDPOINT', ''),
+            'search_endpoint' => env('BRADESCO_ENDPOINT_SEARCH', ''),
+        ],
+        
+    ]
+];
+
 ```
 
 ## 📦 Desenvolvimento
