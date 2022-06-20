@@ -109,6 +109,7 @@ class Authentication
 					)
 				))
 			],
+			
 			'body' => !empty($parameters) ? json_encode($parameters) : ''
 		];
 	}
