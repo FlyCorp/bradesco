@@ -15,7 +15,7 @@ Essas instruções permitirão que você obtenha uma cópia do projeto em opera�
 
 ### 🔧 Instalação
 
-Use o gerenciador de pacotes COMPOSER para i ncluir as dependencias  ao seu projeto.
+Use o gerenciador de pacotes COMPOSER para incluir as dependéncias  ao seu projeto.
 
 Comando a execultar:
 
