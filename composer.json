@@ -2,7 +2,7 @@
   "name": "flycorp/bradesco",
   "description": "Comunicação Bradesco ShopFacil",
   "license": "MIT",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "authors": [
     {
       "name": "Railam Ribeiro",
@@ -10,7 +10,7 @@
     }
   ],
   "require": {
-    "php": "^8.0",
+    "php": "^7.2.5|^8.0",
     "guzzlehttp/guzzle": "^7.3",
     "ext-json": "*"
   },
